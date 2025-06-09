@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>About Us - Lost & Found</title>
   <link rel="stylesheet" href="about(stylesheet).css">
+
 </head>
 
 <body>
   <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+
+  <canvas id="bubble-canvas"></canvas>
 
   <div class="container">
     <h2>About Us</h2>
@@ -22,7 +25,7 @@
     </p>
 
     <p>
-      👉 <strong>Lost something?</strong> Browse the listed items or report your lost item with details and contact info.<br>
+      👉 <strong>Lost something?</strong> Browse the listed items or report your lost item with details and contact info.<br />
       👉 <strong>Found something?</strong> Post it here with a description and where you found it, so the owner can reach you.
     </p>
 
@@ -38,11 +41,9 @@
       &copy; 2025 Lost & Found Project · Designed by students of Amrita Vishwa Vidyapeetham
     </p>
   </div>
+  <script src="about(js).js"></script>
 
-  <script>
-    function toggleTheme() {
-      document.body.classList.toggle('dark');
-    }
-  </script>
+
 </body>
 </html>
+
